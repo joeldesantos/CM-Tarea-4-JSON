@@ -11,4 +11,5 @@
 
 @interface Parser : NSObject
 + (void)parseWeather:(NSDictionary*)json;
++ (NSString *) getCelciusFromKelvin:(double)tempK;
 @end
