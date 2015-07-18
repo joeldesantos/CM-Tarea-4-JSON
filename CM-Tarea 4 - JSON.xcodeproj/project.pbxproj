@@ -42,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D1DBA3B31B51631700DAB651 /* CM-Json.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CM-Json.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1DBA3B31B51631700DAB651 /* CM-Tarea 4 - JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CM-Tarea 4 - JSON.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DBA3B71B51631700DAB651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1DBA3B81B51631700DAB651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1DBA3BA1B51631700DAB651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		D1DBA3C41B51631700DAB651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1DBA3C61B51631700DAB651 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D1DBA3C91B51631700DAB651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D1DBA3CF1B51631700DAB651 /* CM-JsonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CM-JsonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1DBA3CF1B51631700DAB651 /* CM-Tarea 4 - JSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CM-Tarea 4 - JSONTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DBA3D41B51631700DAB651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1DBA3D51B51631700DAB651 /* CM_JsonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CM_JsonTests.m; sourceTree = "<group>"; };
 		D1DBA3E11B51639200DAB651 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
@@ -117,8 +117,8 @@
 		D1DBA3B41B51631700DAB651 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D1DBA3B31B51631700DAB651 /* CM-Json.app */,
-				D1DBA3CF1B51631700DAB651 /* CM-JsonTests.xctest */,
+				D1DBA3B31B51631700DAB651 /* CM-Tarea 4 - JSON.app */,
+				D1DBA3CF1B51631700DAB651 /* CM-Tarea 4 - JSONTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -229,9 +229,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D1DBA3B21B51631700DAB651 /* CM-Json */ = {
+		D1DBA3B21B51631700DAB651 /* CM-Tarea 4 - JSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1DBA3D91B51631700DAB651 /* Build configuration list for PBXNativeTarget "CM-Json" */;
+			buildConfigurationList = D1DBA3D91B51631700DAB651 /* Build configuration list for PBXNativeTarget "CM-Tarea 4 - JSON" */;
 			buildPhases = (
 				D1DBA3AF1B51631700DAB651 /* Sources */,
 				D1DBA3B01B51631700DAB651 /* Frameworks */,
@@ -241,14 +241,14 @@
 			);
 			dependencies = (
 			);
-			name = "CM-Json";
+			name = "CM-Tarea 4 - JSON";
 			productName = "CM-Json";
-			productReference = D1DBA3B31B51631700DAB651 /* CM-Json.app */;
+			productReference = D1DBA3B31B51631700DAB651 /* CM-Tarea 4 - JSON.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D1DBA3CE1B51631700DAB651 /* CM-JsonTests */ = {
+		D1DBA3CE1B51631700DAB651 /* CM-Tarea 4 - JSONTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1DBA3DC1B51631700DAB651 /* Build configuration list for PBXNativeTarget "CM-JsonTests" */;
+			buildConfigurationList = D1DBA3DC1B51631700DAB651 /* Build configuration list for PBXNativeTarget "CM-Tarea 4 - JSONTests" */;
 			buildPhases = (
 				D1DBA3CB1B51631700DAB651 /* Sources */,
 				D1DBA3CC1B51631700DAB651 /* Frameworks */,
@@ -259,9 +259,9 @@
 			dependencies = (
 				D1DBA3D11B51631700DAB651 /* PBXTargetDependency */,
 			);
-			name = "CM-JsonTests";
+			name = "CM-Tarea 4 - JSONTests";
 			productName = "CM-JsonTests";
-			productReference = D1DBA3CF1B51631700DAB651 /* CM-JsonTests.xctest */;
+			productReference = D1DBA3CF1B51631700DAB651 /* CM-Tarea 4 - JSONTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -282,7 +282,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D1DBA3AE1B51631700DAB651 /* Build configuration list for PBXProject "CM-Json" */;
+			buildConfigurationList = D1DBA3AE1B51631700DAB651 /* Build configuration list for PBXProject "CM-Tarea 4 - JSON" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -295,8 +295,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D1DBA3B21B51631700DAB651 /* CM-Json */,
-				D1DBA3CE1B51631700DAB651 /* CM-JsonTests */,
+				D1DBA3B21B51631700DAB651 /* CM-Tarea 4 - JSON */,
+				D1DBA3CE1B51631700DAB651 /* CM-Tarea 4 - JSONTests */,
 			);
 		};
 /* End PBXProject section */
@@ -360,7 +360,7 @@
 /* Begin PBXTargetDependency section */
 		D1DBA3D11B51631700DAB651 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D1DBA3B21B51631700DAB651 /* CM-Json */;
+			target = D1DBA3B21B51631700DAB651 /* CM-Tarea 4 - JSON */;
 			targetProxy = D1DBA3D01B51631700DAB651 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -421,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -458,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -471,7 +471,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CM-Json/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "CM-Tarea 4 - JSON";
 			};
 			name = Debug;
 		};
@@ -481,7 +481,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CM-Json/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "CM-Tarea 4 - JSON";
 			};
 			name = Release;
 		};
@@ -499,8 +499,8 @@
 				);
 				INFOPLIST_FILE = "CM-JsonTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CM-Json.app/CM-Json";
+				PRODUCT_NAME = "CM-Tarea 4 - JSONTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CM-Tarea 4 - JSON.app/CM-Tarea 4 - JSON";
 			};
 			name = Debug;
 		};
@@ -514,15 +514,15 @@
 				);
 				INFOPLIST_FILE = "CM-JsonTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CM-Json.app/CM-Json";
+				PRODUCT_NAME = "CM-Tarea 4 - JSONTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CM-Tarea 4 - JSON.app/CM-Tarea 4 - JSON";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D1DBA3AE1B51631700DAB651 /* Build configuration list for PBXProject "CM-Json" */ = {
+		D1DBA3AE1B51631700DAB651 /* Build configuration list for PBXProject "CM-Tarea 4 - JSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1DBA3D71B51631700DAB651 /* Debug */,
@@ -531,21 +531,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1DBA3D91B51631700DAB651 /* Build configuration list for PBXNativeTarget "CM-Json" */ = {
+		D1DBA3D91B51631700DAB651 /* Build configuration list for PBXNativeTarget "CM-Tarea 4 - JSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1DBA3DA1B51631700DAB651 /* Debug */,
 				D1DBA3DB1B51631700DAB651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		D1DBA3DC1B51631700DAB651 /* Build configuration list for PBXNativeTarget "CM-JsonTests" */ = {
+		D1DBA3DC1B51631700DAB651 /* Build configuration list for PBXNativeTarget "CM-Tarea 4 - JSONTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1DBA3DD1B51631700DAB651 /* Debug */,
 				D1DBA3DE1B51631700DAB651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
