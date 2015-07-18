@@ -15,6 +15,7 @@ NSString *mstHumidity;
 NSString *mstPressure;
 NSString *mstTempMin;
 NSString *mstTempMax;
+NSString *mstIcon;
 
 @implementation Declarations
 

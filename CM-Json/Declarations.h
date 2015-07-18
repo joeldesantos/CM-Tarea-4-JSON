@@ -22,6 +22,7 @@ extern NSString *mstHumidity;
 extern NSString *mstPressure;
 extern NSString *mstTempMin;
 extern NSString *mstTempMax;
+extern NSString *mstIcon;
 
 @interface Declarations : NSObject
 + (NSDictionary *)getWeather:(float)lat and:(float)lng;

@@ -14,17 +14,20 @@
     //check for valid value
     if(json != nil){
         NSDictionary    *main = [json valueForKey: @"main"];
+        NSDictionary    *weather = [json valueForKey: @"weather"];
 
         //[°C] = ([°F] - 32) × 5/9
         //double tempC = (tempK -32) * (5 / 9);
         //NSString *strTempCelcius = [NSString stringWithFormat:@"%.2f ˚C", tempC];
         
-        
+        NSString *tmp = [NSString stringWithFormat:@"%@", [weather valueForKey:@"icon"]];
+        NSString *tmp2 = [tmp substringWithRange:NSMakeRange([tmp rangeOfString:@"("].location+6, 3)];
+        mstIcon     = [NSString stringWithFormat:@"http://openweathermap.org/img/w/%@.png", tmp2];//[weather valueForKey:@"icon"]];
         mstTemp     = [self getCelciusFromKelvin:[[main valueForKey: @"temp"]doubleValue]];
         mstTempMax  = [self getCelciusFromKelvin:[[main valueForKey: @"temp_max"]doubleValue]];
         mstTempMin  = [self getCelciusFromKelvin:[[main valueForKey: @"temp_min"]doubleValue]];
         mstHumidity = [NSString stringWithFormat:@"%@ %@", [[main valueForKey: @"humidity"]stringValue], @"%"];
-        mstPressure = [NSString stringWithFormat:@"%@ %@", [[main valueForKey: @"pressure"]stringValue], @"atm"];
+        mstPressure = [NSString stringWithFormat:@"%@ atm", [[main valueForKey: @"pressure"]stringValue]];
     }
 }
 

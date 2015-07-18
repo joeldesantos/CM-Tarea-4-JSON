@@ -74,7 +74,10 @@
         NSLog(@"Latitude: %lf, Longitude: %lf", self.locationManager.location.coordinate.latitude, self.locationManager.location.coordinate.longitude);
         
         NSDictionary *jsonResponse = [Declarations getWeather:self.locationManager.location.coordinate.latitude and:self.locationManager.location.coordinate.longitude];
+        //print(jsonResponse);
         [Parser parseWeather:jsonResponse];
+        
+        print(NSLog(@"mstIcon = %@", mstIcon))
         print(NSLog(@"mstTemp = %@", mstTemp))
         print(NSLog(@"mstTempMax = %@", mstTempMax))
         print(NSLog(@"mstTempMin = %@", mstTempMin))
@@ -82,14 +85,14 @@
         print(NSLog(@"mstHumidity = %@", mstHumidity))
     } else {
         NSLog(@"no locationManager is present!!!!");
-        
-        mstTemp = [[NSString alloc] init];
-        mstTempMax = [[NSString alloc] init];
-        mstTempMin = [[NSString alloc] init];
-        mstPressure = [[NSString alloc] init];
-        mstHumidity = [[NSString alloc] init];
     }
 
+    NSURL *imageURL = [NSURL URLWithString:mstIcon];
+    NSData *imageData = [NSData dataWithContentsOfURL:imageURL];
+//    UIImage *image = [UIImage imageWithData:imageData];
+    
+    self.imgIcon.image = [UIImage imageWithData:imageData];//[UIImage imageNamed:mstIcon];
+    self.imgIcon.frame  = CGRectMake(self.imgIcon.frame.origin.x,self.imgIcon.frame.origin.y,50,50);
     self.lblTemp.text       = mstTemp;
     self.lblMax.text        = mstTempMax;
     self.lblMin.text        = mstTempMin;
@@ -115,12 +118,6 @@
             NSLog(@"name is %@ and locality is %@ and administrative area is %@ and country is %@ and country code %@", addressName, city, administrativeArea, country, countryCode);
         }
         
-        //self.tfLatitude.text = [NSString stringWithFormat:@"%lf", self.locationManager.location.coordinate.longitude];
-        //self.tfLongitude.text = [NSString stringWithFormat:@"%lf", self.locationManager.location.coordinate.longitude];
-        
-        
-        //mlatitude = self.locationManager.location.coordinate.latitude;
-        //mlongitude = self.locationManager.location.coordinate.longitude;
         NSLog(@"mlatitude = %f", self.locationManager.location.coordinate.latitude);
         NSLog(@"mlongitude = %f", self.locationManager.location.coordinate.longitude);
     }];
