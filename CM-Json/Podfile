@@ -1,0 +1,4 @@
+xcodeproj '/Users/Aleyr/Documents/Master/Cuatrimestre 03/Computo Movil/04 Tarea/CM-JsonWeather/CM-Tarea 4 - JSON.xcodeproj'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.1'
+pod 'GoogleMaps'

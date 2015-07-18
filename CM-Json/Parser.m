@@ -21,10 +21,10 @@
         
         
         mstTemp     = [self getCelciusFromKelvin:[[main valueForKey: @"temp"]doubleValue]];
-        mstHumidity = [NSString stringWithFormat:@"%@ %@", [[main valueForKey: @"humidity"]stringValue], @"%"];
-        mstPressure = [NSString stringWithFormat:@"%@ %@", [[main valueForKey: @"pressure"]stringValue], @"atm"];
         mstTempMax  = [self getCelciusFromKelvin:[[main valueForKey: @"temp_max"]doubleValue]];
         mstTempMin  = [self getCelciusFromKelvin:[[main valueForKey: @"temp_min"]doubleValue]];
+        mstHumidity = [NSString stringWithFormat:@"%@ %@", [[main valueForKey: @"humidity"]stringValue], @"%"];
+        mstPressure = [NSString stringWithFormat:@"%@ %@", [[main valueForKey: @"pressure"]stringValue], @"atm"];
     }
 }
 
